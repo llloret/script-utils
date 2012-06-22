@@ -2,6 +2,9 @@ Very basic README file
 
 for now, it just shows the scripts with a brief explanation of what it does
 - find_big_files.sh
-  Very simple shell script to show big files in a given directory
+	Very simple shell script to show big files in a given directory
+- vnclist.sh
+	Another simple script to list the VNC sessions for a given user or all the users
+- vncstart.sh
+	Creates a VNC session and returns the PID and VNC port
 
-  Possible enhancements: choose recursive or non-recursive, accept file patterns to include / exclude, accept args with names (instead of positional)
